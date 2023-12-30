@@ -201,6 +201,8 @@ body {
   margin-block-start: 2.3rem;
   letter-spacing: 1px;
   transition: 150ms ease;
+  margin-block-end:1rem;
+
 }
 
 .col-1-a,
