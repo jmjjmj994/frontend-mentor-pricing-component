@@ -135,7 +135,7 @@ padding-inline:0.5rem;
   }
   .container-grid {
     grid-template-columns: repeat(3, 23rem);
-    grid-template-rows: 75vh;
+    grid-template-rows: 70vh;
     place-content: center;
     gap: 1rem;
   }
@@ -182,7 +182,7 @@ padding-inline:0.5rem;
 .card-storage,
 .card-users,
 .card-send {
-  border-block-end: 1px solid grey;
+  border-block-end: 1px solid rgb(216, 216, 216);
   width: 100%;
   display: flex;
   justify-content: center;
