@@ -58,6 +58,7 @@ padding-inline:0.5rem;
   border-radius: 5px;
   overflow:hidden;
   padding-block: 1rem;
+
 }
 
 .container-bg--top {
@@ -127,14 +128,14 @@ padding-inline:0.5rem;
   gap: 2.5rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width:1900px) {
   .container {
     gap: 6rem;
     padding-block-start: 2.5rem;
   }
   .container-grid {
     grid-template-columns: repeat(3, 23rem);
-    grid-template-rows: 60vh;
+    grid-template-rows: 75vh;
     place-content: center;
     gap: 1rem;
   }
