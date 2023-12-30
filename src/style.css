@@ -41,6 +41,7 @@ body {
   justify-content: center;
   align-items: center;
 
+padding-inline:0.5rem;
   min-height: 100vh;
 }
 
@@ -54,7 +55,8 @@ body {
   gap: 10rem;
   padding-inline: 15px;
   position: relative;
-  border-radius:5px;
+  border-radius: 5px;
+  overflow:hidden;
 }
 
 .container-bg--top {
@@ -201,8 +203,8 @@ body {
   margin-block-start: 2.3rem;
   letter-spacing: 1px;
   transition: 150ms ease;
-  margin-block-end:1rem;
-
+  margin-block-end: 1rem;
+  cursor: pointer;
 }
 
 .col-1-a,
@@ -220,7 +222,6 @@ body {
 .col-3-a:hover {
   background-color: none;
   background: none;
-  
 }
 
 .col-1-a:hover > .card-1 {
@@ -310,8 +311,9 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-
 .attribution {
-  position:absolute; bottom:0; left:0;
-  font-size:12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
 }
