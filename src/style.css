@@ -115,7 +115,7 @@ padding-inline:0.5rem;
   padding-block-start: 1.5rem;
   h1 {
     font-size: 1.8rem;
-    color: var(--dark-grayish-blue);
+    color: var(--grayish-blue);
     letter-spacing: 1px;
   }
 }
