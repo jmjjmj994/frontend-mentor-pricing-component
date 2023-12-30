@@ -40,8 +40,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-padding-inline:0.5rem;
+  padding-block: 0.5rem;
+  padding-inline: 0.5rem;
   min-height: 100vh;
 }
 
@@ -56,9 +56,8 @@ padding-inline:0.5rem;
   padding-inline: 15px;
   position: relative;
   border-radius: 5px;
-  overflow:hidden;
+  overflow: hidden;
   padding-block: 1rem;
-
 }
 
 .container-bg--top {
@@ -128,7 +127,7 @@ padding-inline:0.5rem;
   gap: 2.5rem;
 }
 
-@media screen and (min-width: 1440px) and (max-width:1900px) {
+@media screen and (min-width: 1440px) {
   .container {
     gap: 6rem;
     padding-block-start: 2.5rem;
@@ -321,7 +320,7 @@ input:checked + .slider:before {
   display: none;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .attribution {
     display: block;
   }
